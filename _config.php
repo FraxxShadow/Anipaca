@@ -11,7 +11,7 @@ $websiteTitle = "AniPaca";
 $protocol = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off') ? "https" : "http";
 $websiteUrl = "{$protocol}://{$_SERVER['SERVER_NAME']}";
 $websiteLogo = $websiteUrl . "/public/logo/logo.png";
-$contactEmail = "@gmail.com";
+$contactEmail = "genanime@gmail.com";
 
 $version = "2.1";
 
@@ -21,11 +21,11 @@ $telegram = "https://t.me/anipaca";
 $instagram = "https://www.instagram.com/pxr15_"; 
 
 // all the api you need
-$zpi = "https://your-hosted-api.com/api"; //https://github.com/PacaHat/zen-api
+$zpi = "https://zen-api-phi.vercel.app/"; //https://github.com/PacaHat/zen-api
 $proxy = $websiteUrl . "/src/ajax/proxy.php?url=";
 
 //If you want faster loading speed
-//$proxy = "https://your-hosted-proxy.com/api/v1/streamingProxy?url="; //https://github.com/MetaHat/m3u8-streaming-proxy
+//$proxy = "https://m3u8-proxy-cors-three-kohl.vercel.app/"; //https://github.com/MetaHat/m3u8-streaming-proxy
 
 
 $banner = $websiteUrl . "/public/images/banner.png";
